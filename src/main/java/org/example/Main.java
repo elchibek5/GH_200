@@ -1,28 +1,32 @@
 package org.example;
 
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        String[] months = new String[] {
-                "Jan",
-                "Feb",
-                "Mar",
-                "Apr",
-                "May",
-                "June",
-                "July",
-                "Aug",
-                "Sep",
-                "Nov",
-                "Dec",
-        };
-        int i = 0;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-        do {
-            System.out.println(months[i]);
-            i++;
-        } while (i < months.length);
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = sc.nextInt();
+        }
 
+        int number = sc.nextInt();
+        boolean meet = false;
+
+        for (int i = 0; i < n; i++) {
+            if (number == array[i]) {
+                meet = true;
+            }
+        }
+        if (meet == true) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
     }
 }
