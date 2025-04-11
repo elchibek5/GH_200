@@ -5,7 +5,11 @@ public class simple_method {
         return a + b;
     }
 
+    public static double sum(double a, double b) {
+        return a + b;
+    }
+
     public static void main(String[] args) {
-        System.out.println(sum(4,5));
+        System.out.println(sum(4.0,5.2));
     }
 }
