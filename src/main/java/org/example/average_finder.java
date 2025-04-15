@@ -3,7 +3,7 @@ package org.example;
 public class average_finder {
     public static void main(String[] args) {
         System.out.println("Average finder");
-        double avg = findAverage(args);
+        double avg = findAverage(new String[]{"1", "4", "40", "100"});
         System.out.println("The avergae is " + avg);
     }
 
