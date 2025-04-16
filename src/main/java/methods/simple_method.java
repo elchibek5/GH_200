@@ -1,20 +1,24 @@
 package methods;
 
 public class simple_method {
-    public static int sum(int a, int b) {
-        return a + b;
+    public static void greet() {
+        System.out.println("Hello World!");
     }
 
-    public static double sum(double a, double b) {
-        return a + b;
+    public static void greet_string(String name, String name_2) {
+        System.out.println("Hello " + name + " " + name_2 + "!");
     }
 
-    public static String string_method(String name, String surname) {
-        return "Hello " + name + " " + surname;
+    public static String fullName(String name, String surname) {
+        return name + " " + surname;
     }
 
     public static void main(String[] args) {
-        System.out.println(sum(4.0,5.2));
-        System.out.println(string_method("Elchibek", "Dastanov"));
+        greet();
+        greet_string("Elchibek", "Dastanov");
+        String name = fullName("elchibek", "dastanov");
+        System.out.println(name);
+
+
     }
 }
