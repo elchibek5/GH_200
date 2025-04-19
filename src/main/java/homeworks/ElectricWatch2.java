@@ -8,11 +8,11 @@ public class ElectricWatch2 {
 
             int n = sc.nextInt();
 
-            int h = ((n / 60) / 60) % 24;
+            int h = (n / 3600) % 24;
             int m = (n / 60) % 60;
             int s = n % 60;
 
-            System.out.println(h + ":" + m + ":" + s);
+            System.out.printf("%d:%02d:%02d\n", h, m, s);
 
             sc.close();
     }
