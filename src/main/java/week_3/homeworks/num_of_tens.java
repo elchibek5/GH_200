@@ -1,11 +1,11 @@
-package homeworks;
+package week_3.homeworks;
 
 import java.util.Scanner;
 
-public class next_even {
+public class num_of_tens {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a  = sc.nextInt();
-        System.out.println(a + 2 - (a % 2));
+        int a = sc.nextInt();
+        System.out.println(a / 10);
     }
 }

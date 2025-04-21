@@ -1,4 +1,4 @@
-package strings;
+package week_3.strings;
 
 import java.util.Scanner;
 

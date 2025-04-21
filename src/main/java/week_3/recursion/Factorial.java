@@ -1,4 +1,4 @@
-package recursion; //Function which calls itself.
+package week_3.recursion; //Function which calls itself.
 
 public class Factorial {
     public static int factorial(int n) {

@@ -1,4 +1,4 @@
-package recursion;
+package week_3.recursion;
 
 import java.util.Scanner;
 

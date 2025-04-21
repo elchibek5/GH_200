@@ -1,4 +1,4 @@
-package recursion;
+package week_3.recursion;
 
 public class Fibonacci {
     public static int f(int n) {

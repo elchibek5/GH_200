@@ -1,4 +1,4 @@
-package methods;
+package week_3.methods;
 
 public class string_concatenate {
     public static String concatenate(String string, int num) {
