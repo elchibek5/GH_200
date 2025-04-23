@@ -1,4 +1,4 @@
-package week_4.chess;
+package week_5.chess;
 
 public class Pawn extends Piece {
     public Pawn(int x, int y, String color) {
@@ -33,10 +33,7 @@ public class Pawn extends Piece {
         return (y + 1 == ny || y - 1 == ny);
     }
 
-    public void beat(int nx, int ny) {
-        if (canBeat(nx, ny)) {
-            this.x = nx;
-            this.y = ny;
-        }
+    public String name() {
+        return "♟\uFE0F";
     }
 }
