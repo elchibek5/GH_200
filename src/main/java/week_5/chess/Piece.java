@@ -4,7 +4,6 @@ public abstract class Piece {
     protected int x, y;
     protected String color;
 
-
     public int getX() {
         return x;
     }
@@ -12,6 +11,7 @@ public abstract class Piece {
     public int getY() {
         return y;
     }
+
     public String getColor() {
         return color;
     }
@@ -40,8 +40,6 @@ public abstract class Piece {
     }
 
     public abstract boolean canBeat(int nx, int ny);
-
-    public abstract String name();
 
     public void beat(int nx, int ny) {
         if (canBeat(nx, ny)) {
