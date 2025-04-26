@@ -9,7 +9,7 @@ public class EmptyPiece extends Piece {
 
     @Override
     public String name() {
-        return "";
+        return " ";
     }
 
     @Override
