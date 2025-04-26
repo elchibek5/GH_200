@@ -19,13 +19,6 @@ public class Pawn extends Piece {
         }
     }
 
-    public void move(int nx, int ny) {
-        if (canMove(nx, ny)) {
-            this.x = nx;
-            this.y = ny;
-        }
-    }
-
     public boolean canBeat(int nx, int ny) {
         if (x + 1 != nx) {
             return false;
@@ -34,6 +27,6 @@ public class Pawn extends Piece {
     }
 
     public String name() {
-        return "♟\uFE0F";
+        return "♟";
     }
 }
