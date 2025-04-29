@@ -6,6 +6,6 @@ public class Main {
         Employee.printNumberOfEmployees();
         int wage = employee.calculateWage();
         System.out.println(wage);
-        Integer.parseInt()
+//        Integer.parseInt()
     }
 }
