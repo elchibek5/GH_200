@@ -1,4 +1,4 @@
-package week_7.solving_problems;
+//package week_7.solving_problems;
 
 import java.util.Scanner;
 
