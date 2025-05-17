@@ -1,4 +1,4 @@
-//package week_9.informatics;
+package week_9.informatics;
 
 import java.util.Scanner;
 
@@ -17,8 +17,8 @@ public class SwapNums {
             a[i + 1] = current;
         }
 
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i] + " ");
+        for (int j : a) {
+            System.out.println(j + " ");
         }
     }
 }
