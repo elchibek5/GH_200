@@ -9,5 +9,6 @@ public class ElectricWatch {
         int hours = (n / 60) % 24;
         int minutes = (n % 60);
         System.out.println(hours + " " + minutes);
-    }
+    }//hh
 }
+
