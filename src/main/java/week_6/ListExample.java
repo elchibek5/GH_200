@@ -11,8 +11,8 @@ public class ListExample {
         linkedList.add(500);
         Collections.sort(linkedList);
         Collections.rotate(linkedList, 1);
-        for (int i = 0; i < linkedList.size(); i++) {
-            System.out.println(linkedList.get(i));
+        for (Integer integer : linkedList) {
+            System.out.println(integer);
         }
         for (Integer it : linkedList) {
             System.out.println(it);
@@ -29,8 +29,8 @@ public class ListExample {
         arrayList.add(500);
 
 
-        for (int i = 0; i < arrayList.size(); i++) {
-            System.out.println(arrayList.get(i));
+        for (Integer integer : arrayList) {
+            System.out.println(integer);
         }
         System.out.println(arrayList);
 
