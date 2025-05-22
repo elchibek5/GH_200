@@ -8,10 +8,11 @@ public class Main {
         // InputStream operates with bytes
         InputStream is = new FileInputStream("src/main/java/week_9/java_lessons/Input.txt");
         byte[] allBytes = is.readAllBytes();
-        String result = new String(allBytes);
-        System.out.println(result);
-        System.out.println(allBytes.length);
+        for (byte b : allBytes) {
+            System.out.printf("%d, ", b);
+        }
 
+        System.out.println();
         // Reader operate with characters
         Reader reader  = new FileReader("src/main/java/week_9/java_lessons/Input.txt");
         char[] input = new char[100];
