@@ -1,4 +1,4 @@
-package week_10.office_hours;
+package week_10.practice_java;
 
 import java.util.ArrayList;
 import java.util.List;
