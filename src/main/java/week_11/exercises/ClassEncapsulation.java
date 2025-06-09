@@ -1,5 +1,7 @@
 package week_11.exercises;
 
+import week_5.bank.Bank;
+
 public class ClassEncapsulation {
     static class BankAccount {
         private final String accountNumber;
@@ -39,5 +41,12 @@ public class ClassEncapsulation {
                     ", ownerName='" + ownerName + '\'' +
                     '}';
         }
+
+
+        /// NEXT EXERCISE: Constructor Overloading and this keyword
+//        static class BankAccountExtended extends BankAccount {
+//            public BankAccountExtended() {
+//            }
+//        }
     }
 }
