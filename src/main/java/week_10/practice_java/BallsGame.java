@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BallsGame {
     public static int countDestroyedBallsOptimized(String balls) {
-        if (balls == null || balls.length() < 3) {
+        if (balls == null || balls.length() < 3) { 
             return 0;
         }
 
