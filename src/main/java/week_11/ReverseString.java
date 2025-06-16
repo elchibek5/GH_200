@@ -1,4 +1,4 @@
-package week_11.exercises;
+package week_11;
 
 public class ReverseString {
     public static String reverseString(String input) {

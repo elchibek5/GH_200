@@ -1,4 +1,4 @@
-package week_11.exercises;
+package week_11;
 
 public class Solving_Problems {
     public static String calculateOperations(int a, int b) {

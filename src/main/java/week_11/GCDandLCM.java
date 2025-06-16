@@ -1,4 +1,4 @@
-package week_11.exercises;
+package week_11;
 
 public class GCDandLCM {
     public static int gcd(int a, int b) {

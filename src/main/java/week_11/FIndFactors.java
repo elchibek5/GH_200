@@ -1,4 +1,4 @@
-package week_11.exercises;
+package week_11;
 
 public class FIndFactors {
     public static void main(String[] args) {
