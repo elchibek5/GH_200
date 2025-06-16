@@ -1,5 +1,8 @@
 package week_11;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Exceptions {
     static class InsufficientFundsException extends Exception {
         public InsufficientFundsException(String message) {
@@ -23,5 +26,17 @@ public class Exceptions {
         }
     }
 
+    public static List<Double> processWithdrawals(BankAccountWithExceptions account, List<Double> amounts) {
+        List<Double> successful = new ArrayList<>();
+        for (double amount : amounts) {
+            try {
+                account.withdrawWithException(amount);
+                successful.add(amount);
+            } catch (week_12.Exceptions.InsufficientFundsException e) {
+                System.out.println("Failed withdrawal: " + e.getMessage());
+            }
+        }
+        return successful;
+    }
 
 }
