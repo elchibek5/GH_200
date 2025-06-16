@@ -44,9 +44,9 @@ public class ClassEncapsulation {
 
 
         /// NEXT EXERCISE: Constructor Overloading and this keyword
-        static class BankAccountExtended extends BankAccount {
-            public BankAccountExtended() {
-            }
-        }
+//        static class BankAccountExtended extends BankAccount {
+//            public BankAccountExtended() {
+//            }
+//        }
     }
 }
