@@ -1,6 +1,24 @@
 package week_11;
 
 public class GCDandLCM {
+
+    private static int gcdAnotherOption(int a, int b) {
+        if (a < b) {
+            int t = a;
+            a = b;
+            b  = t;
+        }
+
+        while (b != 0 ) {
+            a %= b;
+            int t = a;
+            a = b;
+            b = t;
+        }
+        return a;
+    }
+
+
     public static int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
