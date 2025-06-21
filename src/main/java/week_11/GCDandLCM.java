@@ -2,6 +2,7 @@ package week_11;
 
 public class GCDandLCM {
 
+    //Second Option to get Greatest Common Devisor
     private static int gcdAnotherOption(int a, int b) {
         if (a < b) {
             int t = a;
