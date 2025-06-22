@@ -17,6 +17,7 @@ public class GCDandLCM {
             b = t;
         }
         return a;
+
     }
 
 
