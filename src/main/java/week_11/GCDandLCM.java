@@ -20,7 +20,7 @@ public class GCDandLCM {
 
     }
 
-
+    // The fist option to find the Greatest Common Devisor
     public static int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
