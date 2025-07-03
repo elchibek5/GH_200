@@ -18,7 +18,7 @@ public class GreaterThenPrevious {
             if (numbers[i] > numbers[i - 1]) count++;
 
         }
-
+//  Printing out the final answer
         System.out.println(count);
     }
 }
