@@ -1,8 +1,11 @@
 package week_11;
 
 import week_5.interfaces.Circle;
+import week_5.interfaces.Rectangle;
+import week_5.interfaces.Triangle;
+import week_5.interfaces.Shape;
 
-import java.awt.*;
+import java.util.List;
 
 public class AreaCalculate_2 {
     public static double calculateTotalAreaTraditional(List<Shape> shapes) {
