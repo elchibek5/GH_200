@@ -1,12 +1,14 @@
 package week_11;
 
+import week_5.interfaces.Shape;
 import week_5.interfaces.Circle;
+import week_5.interfaces.Rectangle;
+import week_5.interfaces.Triangle;
 
-import java.awt.*;
 import java.util.List;
 
 public class AreaCalculate {
-    public static double calculteTotalArea(List<Shape> shapes) {
+    public static double calculateTotalArea(List<Shape> shapes) {
         return shapes.stream()
                 .mapToDouble(shape -> {
                     if (shape instanceof Circle c) {
