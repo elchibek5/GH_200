@@ -10,7 +10,7 @@ public class AdvancedGenerics {
 
         public void add(T element) {
             if (element != null) {
-                elements.add(elements);
+                elements.add(element);
             }
         }
 
