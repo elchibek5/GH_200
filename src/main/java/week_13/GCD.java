@@ -20,8 +20,20 @@ public class GCD {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        System.out.println(a * 1L * b / gcd(a, b));
+        int n = scanner.nextInt();
+        int sqrt = (int) Math.floor(Math.sqrt(n));
+        for (int i = 2; i <= sqrt; i++) {
+            int count = 0;
+            while (n % i == 0) {
+                count++;
+                n /= i;
+            }
+            if (count > 0) {
+                System.out.println(i);
+                if (count > 1) {
+                    System.out.println("^" + count);
+                }
+            }
+        }
     }
 }
