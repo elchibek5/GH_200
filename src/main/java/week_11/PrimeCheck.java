@@ -12,7 +12,7 @@ public class PrimeCheck {
         return true;
     }
 
-    // This code takes the was less memory than the first one.
+    // This code takes less memory than the first one.
     void sieveOfEratosthenes(int n) {
         boolean[] primes = new boolean[n + 1];
         Arrays.fill(primes, true);
