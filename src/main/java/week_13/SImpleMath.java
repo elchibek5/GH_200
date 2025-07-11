@@ -2,11 +2,9 @@ package week_13;
 
 public class SImpleMath {
     public static void main(String[] args) {
-        int a = 8;
-        int b = 3;
-        int c = 0;
-
-        c = ++ b + a + b ++;
-        System.out.println(c);
+        for (int i = 0; i < 5; i++) {
+            if (i == 2) break;
+            else System.out.println(i);
+        }
     }
 }
