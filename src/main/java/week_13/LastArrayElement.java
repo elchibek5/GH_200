@@ -1,6 +1,6 @@
 package week_13;
 
-public class SimpleMath {
+public class LastArrayElement {
     public static int getLastElement(int[] array) throws IllegalAccessException {
         if (array == null || array.length == 0) {
             throw new IllegalAccessException("Array is empty or null");
