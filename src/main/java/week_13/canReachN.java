@@ -32,6 +32,12 @@ public class canReachN {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
+
+        visited = new int[n];
+        for (int i = 0; i < n; i++) {
+            visited[i] = -1;
+        }
+
         if (rec(1)) {
             System.out.println("YES");
         } else {
