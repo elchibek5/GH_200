@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class canReachN {
     static int n;
+    static int[] visited;
 
     static boolean rec(int x) {
         if (x > n) {
@@ -12,13 +13,20 @@ public class canReachN {
             return true;
         }
 
+        if (visited[x] != -1) {
+            return (visited[x] == 1);
+        }
+
         if (rec(x + 5)) {
-            return true;
+            visited[x] = 1;
+        } else if (rec(x + 3)) {
+            visited[x] = 1;
         }
-        if (rec(x + 3)) {
-            return true;
+
+        if (visited[x] == -1) {
+            visited[x] = 0;
         }
-        return false;
+        return (visited[x] == 1);
     }
 
     public static void main(String[] args) {
