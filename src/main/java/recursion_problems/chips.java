@@ -1,4 +1,4 @@
-//package recursion_problems;
+package recursion_problems;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
