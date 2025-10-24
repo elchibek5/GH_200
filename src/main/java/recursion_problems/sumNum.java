@@ -3,13 +3,11 @@ package recursion_problems;
 import java.util.Scanner;
 
 public class sumNum {
-    int sum = 0;
     public int allSum(int num) {
-        if (num == 0) {
-            return sum;
+        if (num <= 1) {
+            return num;
         }
-        sum += num;
-        return allSum(num - 1);
+        return num + allSum(num - 1);
     }
 
     public static void main(String[] args) {
