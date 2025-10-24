@@ -21,5 +21,4 @@ public class decimalToBinary {
 
         System.out.println(input);
     }
-
 }
